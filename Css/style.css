@@ -4,15 +4,14 @@ html,body{
 }
 .bg-per{
     background-image: url('./../Assests/images/bg-main.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
 }
 .img-per{
     height: 150px;
     width: auto;
-    /* border: 3px dashed gray; */
     padding: 5px;
     padding-left: 10px;
     padding-right: 15px;
@@ -22,11 +21,52 @@ html,body{
     border-radius: 7px;
 }
 .navbar-bg{
-    background-color: rgba(150, 150, 150, 0.75);
+    background-color: rgba(150, 150, 150, 0.95);
+}
+.ext-container{
+  text-align: center;
 }
 .title-per{
     font-size: 65px;
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
+    text-align: center;
+}
+/* Css Styling For Trianga colored Divisions */
+.mainh-per{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 45px;
+  background-color: rgba(244, 196, 48, 0.75);
+  border-radius: 10px;
+  border-radius: 10px;
+  
+}
+.gist-per{
+  font-size: 22px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  
+}
+.div-2-per{
+  color: black;
+  background-color: rgba(30, 133, 9, 0.75);
+  font-size: 22px;
+  border-radius: 10px;
+}
+.mta-per{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.nav-per{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
