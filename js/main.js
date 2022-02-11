@@ -16,3 +16,8 @@ var swiper = new Swiper(".bg-slider-thumbs", {
       swiper: swiper,
     },
   });
+
+function buyNow()
+{
+  alert('This Service is not available')
+}
