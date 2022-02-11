@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background-image: url(./../assets/images/canteen-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.img-nav-per{
+    height: 100px ;
+}
+.slide-per{
+    /* height: 50px; */
+    /* width: 50%; */
+}
+.captions-per{
+    color: black;
+}
+.carousel .carousel-item {
+    height: 350px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 100px;
+  }
+  .top-head-per{
+      font-size: 28px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+.container-head-per{
+    background-color: rgba(0, 230, 230, 1)
+}
+.inv-per{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.rowf-per{
+    background-color: #f2f2f2
+}
+.slide-txt-per{
+    color: black;
+    font-size: 25px;
+    background-color: antiquewhite;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Rubik', sans-serif;
+}
+.notice-per{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.buy-btn{
+    
+    display: inline;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    
+    
+}
+.buy-btn:hover {
+    box-shadow: 0px 4px 18px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+.buy-btn:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
