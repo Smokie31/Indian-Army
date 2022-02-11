@@ -5,7 +5,8 @@ body, html{
 }
 
 body{
-    background-image: url(./../assets/images/canteen-bg.jpg);
+    /* background-image: url(./../assets/images/canteen-bg.jpg); */
+    background-color: #1a1a1a;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -42,8 +43,6 @@ body{
 .inv-per{
     font-family: 'Rubik', sans-serif;
     font-size: 50px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
 }
 .rowf-per{
     background-color: #f2f2f2
@@ -86,4 +85,27 @@ body{
 .buy-btn:active{
     box-shadow: inset 0px 3px 7px #3c4fe0;
     transform: translateY(2px);
+}
+.inv-head-per{
+    color:white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #666666;
+}
+.inv-per{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.list-txt-per{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-bg-per{
+    
+}
+.card-bg-per:hover{
+    box-shadow: 0 0 20px greenyellow;
+    border-radius: 5px;
+    transform: 3;
+    border-radius: 10px;
 }
