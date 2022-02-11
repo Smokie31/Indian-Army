@@ -2,7 +2,7 @@
 :root{
   --white-color: #fff;
   --dark-color:#222;
-  --body-bg-color:#fff;
+  --body-bg-color: black;
   --section-bg-color:#202834;
   --navigation-item-hover-color:#3b5378;
 
@@ -169,7 +169,7 @@ header .nav-bar{
     height: 95%;
     border-radius: 20px;
     overflow: hidden;
-    border: 5px solid white;
+    border: 5px solid rgb(250, 248, 248);
 }
 .card1:hover{
     transform: rotateY(180deg);
@@ -233,4 +233,3 @@ header .nav-bar{
     display: flex;
     flex-direction: row;
 }
-
