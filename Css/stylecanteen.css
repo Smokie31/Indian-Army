@@ -119,3 +119,19 @@ body{
     opacity: 0.65;
 
 }
+.navbar-per{
+    backdrop-filter: blur(10px);
+    /* background-color: rgba(166, 166, 166,  0.1); */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.navbar-per2{
+    
+}
+
+.nav-item-per{
+    font-size: 25px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
