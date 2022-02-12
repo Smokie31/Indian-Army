@@ -5,8 +5,8 @@ body, html{
 }
 
 body{
-    /* background-image: url(./../assets/images/canteen-bg.jpg); */
-    background-color: #1a1a1a;
+    background-image: url(./../assets/images/background3.jpg);
+    /* background-color: #1a1a1a; */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -101,11 +101,20 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .card-bg-per{
-    
+    border-radius: 20px;
+    transition: 0.5s;
 }
 .card-bg-per:hover{
-    box-shadow: 0 0 20px greenyellow;
+    box-shadow: 10px 8px 15px whitesmoke;
     border-radius: 5px;
     transform: 3;
-    border-radius: 10px;
+    border-radius: 20px;
+    transform: 3;
+    transform-style: preserve-3d;
+    /* border-style: ridge;  */
+    border: 5px ridge #372e70;
+}
+.img-hov-per:hover{
+    opacity: 0.65;
+    
 }
