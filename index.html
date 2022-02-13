@@ -16,7 +16,7 @@
 <body>
   <div class="container-fluid bg-per">
 
-    <nav class="navbar navbar-expand-lg navbar-light navbar-per">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-per sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./assets/logo/indian-flag2.png" alt=""  height="50" class="rounded-3">
@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item nav-item-per m-2">
-              <a class="nav-link active nav-txt-per" style="color: white; aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active nav-txt-per " style="color: white;" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item nav-item-per m-2">
-              <a class="nav-link active nav-txt-per" style="color: white; aria-current="page" href="canteen.html">Canteen</a>
+              <a class="nav-link active nav-txt-per" style="color: white;" aria-current="page" href="canteen.html">Canteen</a>
             </li>
             <li class="nav-item nav-item-per m-2">
-              <a class="nav-link nav-txt-per" style="color: white; href="#" >LogIn</a>
+              <a class="nav-link nav-txt-per" style="color: white;" href = "#footer" >LogIn</a>
             </li>
             <li class="nav-item nav-item-per m-2">
-              <a class="nav-link " style="color: white;" href="canteen.html">Contact Us</a>
+              <a class="nav-link " style="color: white;" href="#footer">Contact Us</a>
             </li>
             
         </div>
@@ -110,50 +110,39 @@
   
   </div>    
   
-      <!-- Swiper JS -->
-      <footer id="footer" style="margin-top: 300px; width: 100%; height: 400px;" class="txt-footer">
-        <div class ="container  " style="background-color: rgb(175, 172, 172);  margin-left: 0%; margin-right: 0%;margin-bottom: 0%; width:100%;">
+     
+      <footer id="footer" style="margin-top: 300px; width: 100%; height: 400px;backdrop-filter: blur(10px);" class="txt-footer">
+        <div class ="container  " style="backdrop-filter: blur(10px);  margin-left: 0%; margin-right: 0%;margin-bottom: 0%; width:100%;">
           <div class="row">
             <div class="col-md-7 txt-icon ">
               <form >
                 <h1 class="txt-head text-center"> <img src="https://img.icons8.com/bubbles/50/000000/popular-woman.png"  class="txt-img"/>  Login Form</h1>
-                
                 <label for="txt-user" class="text-center ml-3 mt-4 block "> <b>Enter your Username</b></label> <br>
                 <input type="text" placeholder="Enter your Username" id="txt-user" class="text-centere ml-3 w-100"> 
-              </form>
-      
                 <label for="pass" class="pass-center ml-3 mt-2 block"><b>Enter your Password</b> </label> <br>
-                
                 <input type="Password"placeholder="Enter your password" id="pass" class="pass-center ml-3 w-100"> <br> 
+                <button class="btn btn-dark mt-5 w-100 ml-2 ">Login</button>
               </form>
-              <button class="btn btn-dark mt-5 w-100 ml-2 ">Login</button>
-              </div>
-    
-    
-               <div>
-    <h1 class="txt-head text-center mt-2 ml-4"> Find Us </h1>
-    
-            <div class="row ml-3   " style="background-color:rgb(175, 172, 172); text-align: center;padding-top: 20px;margin-top: 30px; padding-left: 90px;">
-              
-                
-              
-                
-                
-             <a href=" tel: 91-0078157539 "class="fa fa-phone m-2   "style="font-size:48px; color: green;padding: 30px;">     </a> 
-             
-            <br> 
-          
-              <a href=" mailto:armyveteranscell@gmail.com " class="fa fa-google m-2 "style="font-size:48px; color: red; padding: 30px;  "> </a>
-              <br>
-              <a href="https://twitter.com/adgpi"  class="fa fa-twitter m-2" style="font-size:48px; color:aliceblue;padding:30px;"> </a>
-              <br>
-             <a href=" https://www.facebook.com/Indianarmy.adgpi " class="fa fa-facebook m-2"style="font-size:48px; color: blue; padding: 30px;"> </a>
-              <br>
-             
-             <a href="https://www.instagram.com/indianarmy.adgpi " class="fa fa-instagram m-2"style="font-size:48px; color:pink;padding:30px;">  </a>
-              <br>
-             </div>
             </div>
+          
+              <div class="col-md-4 row ml-3   " style="backdrop-filter: blur(10px); text-align: center;padding-top: 10px; padding-left: 90px;">
+                <h1 class="txt-head text-center mt-2 ml-4"> Contact Us </h1>
+                <a href=" tel: 91-0078157539 "class="fa fa-phone m-2   "style="font-size:48px; color: green;padding: 30px;">     </a> 
+                <br> 
+                <a href=" mailto:armyveteranscell@gmail.com " class="fa fa-google m-2 "style="font-size:48px; color: red; padding: 30px;  "> </a>
+                <br>
+                <a href="https://twitter.com/adgpi"  class="fa fa-twitter m-2" style="font-size:48px; color:aliceblue;padding:30px;"> </a>
+                <br>
+                <a href=" https://www.facebook.com/Indianarmy.adgpi " class="fa fa-facebook m-2"style="font-size:48px; color: blue;  "> </a>
+                <br>
+                <a href="https://www.instagram.com/indianarmy.adgpi " class="fa fa-instagram m-2"style="font-size:48px; color:pink;">  </a>
+                <br>
+               </div>
+          
+              
+             
+
+           
     <br>
           </div>
     
@@ -163,7 +152,7 @@
       </footer>
       </section>
   
-  
+   <!-- Swiper JS -->
       <script src="./js/swiper-bundle.min.js"></script>
      <script src="./js/main.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
