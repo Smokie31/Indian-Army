@@ -42,6 +42,10 @@ body{
     
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.nav-item{
+    position:sticky;
+    top:0;
+}
 .text-content-per{
     /* backdrop-filter: blur(10px); */
     backdrop-filter: blur(10px);
