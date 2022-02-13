@@ -190,3 +190,84 @@ font-family: 'EB Garamond', serif;
 
 .product-image:hover img {transition: all 0.3s ease-out;}
 .product-image:hover img {transform: scale(1.2, 1.2);}
+.fa {
+    
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	
+  }
+	.fa:hover {
+		opacity: 0.7;
+	}
+  
+	.icon{
+		padding:50px;
+		text-align: center;
+		
+	}
+	.icons{
+		margin-top:100px;
+	}
+   
+	 #footer{
+		 margin-top:8px;
+		 height: 100px;
+		 left: 10px;
+		 bottom:5px;
+		 right: 10px;
+		 width: 95%;
+		 backdrop-filter: blur(10px);
+		 color: alicebluer;
+		 text-align: center;
+	 }
+	 .pass-center{
+		border-radius: 10PX;
+		padding: 10px;
+	}
+	.text-centere{
+	   background-color:#d9d9d9 ;
+	   border-radius: 10PX;
+	   padding: 20px;
+	   height: 50px;
+	}
+	 .txt-head{
+		 color: azure;
+	 }
+	 .txt-img{
+		 width: 50px;
+		 border-radius: 20px;
+		
+		}  
+		.txt-img:hover{
+			width: 50px;
+			position: relative;
+			display:ruby-base;
+			border-radius: 20PX;
+		}
+	
+		.btn{
+			border-radius: 10px;
+			padding: 10px;
+			
+		}
+		.text{
+			text-align: center;
+		}
+	.block{
+	   color: aliceblue;
+	}
+	.navbar-per{
+		backdrop-filter: blur(10px);
+
+	}
+	
+	.nav-item-per{
+		font-size: 25px;
+		
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+	  
