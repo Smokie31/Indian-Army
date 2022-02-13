@@ -8,11 +8,11 @@ body{
 
 .child{
 	height: 100px;
-	/* margin-left:500px; */
+	
 }
 .child1{
 	font-size:60px;
-	/* margin-left: 330px; */
+	
 	font-family:Georgia, 'Times New Roman', Times, serif ; 
  }
  .child2 {
@@ -21,9 +21,9 @@ body{
 	 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	 backdrop-filter: blur(10px);
 	 background-color: rgb(61, 61, 41);
-	 /* padding:15px; */
+	 
 	 border-radius:15px;
-	 /* padding-left: 50px; */
+	 
  }
  .child2:hover{
 	 color:black;
