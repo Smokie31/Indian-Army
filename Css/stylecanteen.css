@@ -36,9 +36,10 @@ body{
   .top-head-per{
       font-size: 28px;
       font-family: 'Times New Roman', Times, serif;
+      color: white;
   }
 .container-head-per{
-    background-color: rgba(0, 230, 230, 1)
+    background-color: gray
 }
 .inv-per{
     font-family: 'Rubik', sans-serif;
@@ -116,5 +117,21 @@ body{
 }
 .img-hov-per:hover{
     opacity: 0.65;
+
+}
+.navbar-per{
+    backdrop-filter: blur(10px);
+    /* background-color: rgba(166, 166, 166,  0.1); */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.navbar-per2{
     
+}
+
+.nav-item-per{
+    font-size: 25px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

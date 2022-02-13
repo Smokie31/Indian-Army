@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root{
+/* :root{
   --white-color: #fff;
   --dark-color:#222;
   --body-bg-color: black;
@@ -12,8 +12,10 @@
   --scroll-bar-color: #fff;
   --scroll-thumb-color: #282f4e;
   --scroll-thumb-hover-color: #454f6b;
+} */
+html, body{
+    height: 100%;
 }
-
 *{
   margin: 0;
   padding: 0;
@@ -21,61 +23,35 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: var(--body-bg-color);
+  /* background: var(--body-bg-color); */
 }
- header{
-  z-index: 1000;
-  position: fixed;
-  width: 100%;
-  height: calc(5rem + 1rem);
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
+.bg-per{
+    background-image: url(./../assets/images/bg-main.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-header .nav-bar{
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 200px;
-    transition: 0.3s ease;
+.navbar-per{
     backdrop-filter: blur(10px);
+    /* background-color: rgba(166, 166, 166,  0.1); */
 }
-.nav-close-btn, .nav-menu-btn{
-    display: none;
+
+.nav-item-per{
+    font-size: 25px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.logo{
-    color: var(--white-color);
-    font-size: 1.8em;
+.text-content-per{
+    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
+    text-shadow: var(--text-shadow);
+    background: var(--white-color);
+    color: var(--dark-color);
+    font-size: 2.3em;
     font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-shadow: var(--text-shadow);
-} 
-.navigation .nav-items a{
-    color: var(--white-color);
-    font-size: 1em;
-    text-decoration: none;
-    text-shadow: var(--text-shadow);
 }
-.navigation .nav-items a i{
-    display: none;
-}
-.navigation .nav-items a:not(:last-child){
-    margin-right: 45px;
-}
-.home{
-    min-height: 100vh;
-}
-.bg-slider{
-    z-index: 777;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-}
+
 .bg-slider .swiper-slide{
     position: relative;
     width: 100%;
@@ -84,10 +60,10 @@ header .nav-bar{
 .bg-slider .swiper-slide img{
     width: 100%;
     height: 100%; 
-    object-fit: cover;
     background-position: center;
-    background-size: cover;
-    pointer-events: none; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 } 
  .swiper-slide .text-content{
     position: absolute;
@@ -103,13 +79,6 @@ header .nav-bar{
     margin-bottom: 20px;
     transform:translateY(-50px);
 }
-.swiper-slide-active .text-content .title span{
-
-}
-.swiper-slide .text-content .title span{
-    font-size: 0.3em;
-    font-weight: 300;
-}
 .swiper-slide .text-content p{
     max-width: 700px;
     background: rgba(255, 255, 255, 0.1);
@@ -121,27 +90,6 @@ header .nav-bar{
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: var(--box-shadow);
 }
-.swiper-slide .text-content .read-btn{
-    border: none;
-    outline: none;
-    background: var(--white-color);
-    color: var(--dark-color);
-    font-size: 1em;
-    font-weight: 500;
-    padding: 8px 25px;
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.swiper-slide .text-content .read-btn i{
-    font-size: 1.6em;
-    transition: 0.3s ease;
-}
-.swiper-slide .text-content .read-btn:hover i{
-    transform: translateX(5px);
-} 
 
 .card1
 {
@@ -173,10 +121,10 @@ header .nav-bar{
     border-radius: 20px;
     overflow: hidden;
 
-    border: 5px solid white;
+    border: 5px solid rgb(59, 56, 56);
    
 
-    border: 5px solid rgb(250, 248, 248);
+    border: 5px solid rgb(59, 56, 56);
 
 }
 .card1:hover{
@@ -187,7 +135,7 @@ header .nav-bar{
     backdrop-filter: blur(10px);
     border-radius: 100px;
     width: 0%;
-    transition: .5s;
+    transition: .3s;
 }
 .card1-body .bg:nth-child(1){
     height: 30%;
@@ -235,7 +183,7 @@ header .nav-bar{
 }
 .card1:hover .content{
     opacity: 1;
-    transition-delay: 2.5s;
+    transition-delay: 2s;
 }
 .test{
     display: flex;
@@ -243,6 +191,135 @@ header .nav-bar{
 
    
 }
+body{
+    background-color: black;
+}
+.txt-icon{
+   background-color: transparent;
+   width: 200px;
+   
+   padding: 10px;
+   border-radius: 15px;}
+   .pass-center{
+    border-radius: 10PX;
+    padding: 10px;
+}
+.text-centere{
+   background-color:#d9d9d9 ;
+   border-radius: 10PX;
+   padding: 20px;
+   height: 50px;
+}
+ .txt-head{
+     color: azure;
+     text-align: left;
+ }
+ .txt-img{
+     width: 50px;
+     border-radius: 20px;
+    
+    }  
+    .txt-img:hover{
+        width: 50px;
+        position: relative;
+        display:ruby-base;
+        border-radius: 20PX;
+    }
+
+    .btn{
+        border-radius: 10px;
+        padding: 10px;
+        
+    }
+    .text{
+        text-align: center;
+    }
+.block{
+   color: aliceblue;
+}
+
+.fa {
+    
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .icon{
+      padding:50px;
+      text-align: center;
+  }
+   #footer{
+       margin-top:8px;
+       height: 100px;
+       left: 10px;
+       bottom:5px;
+       right: 10px;
+       width: 95%;
+       background-color: rgb(175, 172, 172);
+       color: alicebluer;
+       text-align: center;
+   }
+
+.pass-center{
+    border-radius: 10PX;
+    padding: 10px;
+}
+.text-centere{
+   background-color:#d9d9d9 ;
+   border-radius: 10PX;
+   padding: 20px;
+   height: 50px;
+}
+ .txt-head{
+     color: azure;
+ }
+ .txt-img{
+     width: 50px;
+     border-radius: 20px;
+    
+    }  
+    .txt-img:hover{
+        width: 50px;
+        position: relative;
+        display:ruby-base;
+        border-radius: 20PX;
+    }
+
+    .btn{
+        border-radius: 10px;
+        padding: 10px;
+        
+    }
+    .text{
+        text-align: center;
+    }
+.block{
+   color: aliceblue;
+}
+
+.fa {
+    
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .icon{
+      padding:50px;
+      text-align: center;}
 
 
 
